@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Report Downloader</title>
+<link
+href="index.css"
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+rel="stylesheet" />
+</head>
+
+<body>
+
+  <div id="header">
+  <div id="progress"> sending otp...</div>
+  <div>
+    <span>
+     
+    <div class="inside_container">
+
+      <input class="otp inline" id="otp1" type="tel" maxlength="1" onkeyup="clickEvent(this,'otp2')"></input>
+      <input class="otp inline" id="otp2" type="tel" maxlength="1" onkeyup="clickEvent(this,'otp3')"></input>
+      <input class="otp inline" id="otp3" type="tel" maxlength="1" onkeyup="clickEvent(this,'otp4')"></input>
+      <input class="otp inline" id="otp4" type="tel" maxlength="1" onkeyup="clickEvent(this,'otp5')"></input>
+      <input class="otp inline" id="otp5" type="tel" maxlength="1" onkeyup="clickEvent(this,'otp6')"></input>
+      <input class="otp inline" id="otp6" type="tel" maxlength="1"></input>
+      <button id="verify" class="button-71 inline" role="button">Verify OTP</button>
+      </div>
+      </span>
+  </div>
+  </div>
+
+<table class="table">
+    <tr class="tablehead">
+    <th ><img src="./assests/KEFlogo.jpg" alt="" class=""></th>
+    <th>Calling History</th>
+    <th>Quiz Result -  Daily</th>
+    <th>Quiz Result -  Yearly</th>
+    <th>Session Report -  Daily</th>
+    <th>Session Report -  Yearly</th>
+    <th>Reviewer Feedback</th>
+    <th>Mentee Feedback</th>
+    <th>Other Reports</th>
+    </tr>
+    <tbody id="tablebody" ></tbody>
+  </table>
+<button class="button-71 rightbox" id="button"><b>RUN</button>
+<div id="1"></div>
+
+<script src="main.js"></script>
+<script src="otp.js"></script>
+<!-- <script src="logindetails.js"></script> -->
+</body>
+</html> 
